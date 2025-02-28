@@ -1,9 +1,9 @@
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 
-import { Create } from "../Pages/Create";
-import { List } from "../Pages/List";
-import { Search } from "../Pages/Search";
-import { Total } from "../Pages/Total";
+import { Create } from "../pages/Create";
+import { List } from "../pages/List";
+import { Search } from "../pages/Search";
+import { Total } from "../pages/Total";
 import { TabIcon } from "../components/ui/TabIcon";
 import FontAwesome from '@expo/vector-icons/FontAwesome5';
 import FontAwesome5 from '@expo/vector-icons/FontAwesome5';
