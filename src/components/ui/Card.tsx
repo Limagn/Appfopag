@@ -23,7 +23,7 @@ Card.displayName = "Card";
 const CardHeader = React.forwardRef<View, CardPropsView>(({ className, ...props }, ref) => (
   <View
   ref={ref}
-  className={cn("flex flex-row justify-between space-y-1.5 p-3", className)}
+  className={cn("flex flex-row justify-between space-y-1.5 pb-2", className)}
   {...props}
   />
 ));
@@ -64,7 +64,7 @@ Card.displayName = "CardDescription";
 const CardFooter = React.forwardRef<View, CardPropsView>(({ className, ...props }, ref) => (
   <View
   ref={ref}
-  className={cn("flex flex-row justify-between p-3 pt-0", className)}
+  className={cn("flex flex-row justify-between pl-4 pr-5 pb-2", className)}
   {...props}
   />
 ));

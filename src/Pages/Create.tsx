@@ -1,4 +1,3 @@
-import { StatusBar } from 'expo-status-bar';
 import { Alert, ScrollView, Text, View } from 'react-native';
 import { Card, CardContent, CardFooter, CardFooterText, CardTitle } from '../components/ui/Card';
 import { useState } from 'react';
@@ -126,7 +125,7 @@ export function Create() {
             </CardContent>
           </Card>
           <Button 
-            title='Incluir'
+            title='Cadastrar'
             onPress={handleAddEmployee}
           />
         </ScrollView>
